@@ -1,0 +1,5 @@
+.venv/
+*.lbdb
+*.lbdb.wal
+.ipynb_checkpoints/
+__pycache__/
