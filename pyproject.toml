@@ -1,14 +1,14 @@
 [project]
 name = "ladybug-icebug-notebook"
 version = "0.1.0"
-description = "A reproducible Ladybug nightly and Icebug notebook demo using Arrow-backed Cypher queries."
+description = "A reproducible Ladybug nightly and Icebug notebook demo using Arrow CSR tables."
 readme = "README.md"
 requires-python = ">=3.11,<3.15"
 dependencies = [
     "icebug>=12.7",
     "ipykernel>=7.2.0",
     "jupyterlab>=4.5.7",
-    "ladybug==0.17.0.dev20260517",
+    "ladybug==0.17.0.dev20260522",
     "nbconvert>=7.17.1",
     "notebook>=7.3.3",
     "pandas>=3.0.3",
