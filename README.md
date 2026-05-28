@@ -9,6 +9,12 @@ Run it with:
 uv run jupyter notebook ladybug_icebug_starwars.ipynb
 ```
 
+The attached-DuckDB Star Wars example can be opened with:
+
+```bash
+uv run jupyter notebook ladybug_duckdb_attached_starwars.ipynb
+```
+
 Or execute it from the CLI:
 
 ```bash
