@@ -9,7 +9,7 @@ dependencies = [
     "icebug-format>=1.0.0",
     "ipykernel>=7.2.0",
     "jupyterlab>=4.5.7",
-    "ladybug==0.17.0.dev20260528",
+    "ladybug==0.17.0",
     "nbconvert>=7.17.1",
     "notebook>=7.3.3",
     "pandas>=3.0.3",
