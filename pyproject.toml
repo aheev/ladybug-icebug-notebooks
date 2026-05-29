@@ -14,3 +14,8 @@ dependencies = [
     "notebook>=7.3.3",
     "pandas>=3.0.3",
 ]
+
+[project.optional-dependencies]
+postgres = [
+    "pgembed>=0.2.0; python_version >= '3.12'",
+]

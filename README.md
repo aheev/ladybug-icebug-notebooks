@@ -21,6 +21,10 @@ and analytics workflows.
 5. [Ladybug nightly + Icebug: Karate Club graph analytics from icebug-disk](ladybug_icebug_disk_karate.ipynb) -
    convert DuckDB tables to icebug-disk Parquet, load them natively in Ladybug,
    and run Icebug algorithms.
+6. [pgembed: embedded Postgres logical replication](pgembed_logical_replication.ipynb) -
+   start two embedded Postgres clusters with pgembed over Unix domain sockets,
+   publish logical WAL changes from the primary, and read replicated rows from
+   the secondary.
 
 Open the notebook index directly with:
 
@@ -38,4 +42,10 @@ Or execute one from the CLI:
 
 ```bash
 uv run jupyter nbconvert --to notebook --execute ladybug_icebug_starwars.ipynb --inplace
+```
+
+The pgembed replication notebook uses an optional dependency group:
+
+```bash
+uv sync --extra postgres
 ```
