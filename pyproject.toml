@@ -5,7 +5,7 @@ description = "A reproducible Ladybug nightly and Icebug notebook demo using Arr
 readme = "README.md"
 requires-python = ">=3.11,<3.15"
 dependencies = [
-    "icebug>=12.8",
+    "icebug>=12.9",
     "icebug-format>=1.0.0",
     "ipykernel>=7.2.0",
     "jupyterlab>=4.5.7",
