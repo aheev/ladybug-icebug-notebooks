@@ -1,7 +1,7 @@
-# Ladybug + Icebug Star Wars Notebook
+# Ladybug + Icebug Notebooks
 
-This workspace contains a reproducible `uv` project and a notebook demo for the
-Ladybug nightly Arrow query path feeding Icebug graph analytics.
+This workspace contains a reproducible `uv` project and notebook demos for the
+Ladybug Arrow query path feeding Icebug graph analytics.
 
 ## Notebook Index
 
@@ -18,10 +18,13 @@ and analytics workflows.
    export CSR, and run Icebug analytics.
 4. [Ladybug nightly + Icebug: Star Wars graph analytics with Arrow CSR](ladybug_icebug_memory_starwars.ipynb) -
    build Arrow CSR tables in memory and share them between Ladybug and Icebug.
-5. [Ladybug nightly + Icebug: Karate Club graph analytics from icebug-disk](ladybug_icebug_disk_karate.ipynb) -
+5. [Ladybug Icebug Community Detection](ladybug_icebug_comm_detection.ipynb) -
+   export an in-memory Ladybug graph to Parquet, import it into a fresh
+   instance, run Icebug Leiden, and write communities back to the nodes.
+6. [Ladybug nightly + Icebug: Karate Club graph analytics from icebug-disk](ladybug_icebug_disk_karate.ipynb) -
    convert DuckDB tables to icebug-disk Parquet, load them natively in Ladybug,
    and run Icebug algorithms.
-6. [pgembed: embedded Postgres logical replication](pgembed_logical_replication.ipynb) -
+7. [pgembed: embedded Postgres logical replication](pgembed_logical_replication.ipynb) -
    start two embedded Postgres clusters with pgembed over Unix domain sockets,
    publish logical WAL changes from the primary, and read replicated rows from
    the secondary.
